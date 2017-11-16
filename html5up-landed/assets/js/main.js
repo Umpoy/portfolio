@@ -16,6 +16,7 @@
 
 	$(function() {
 
+
 		var	$window = $(window),
 			$body = $('body');
 
@@ -304,3 +305,25 @@
 	});
 
 })(jQuery);
+
+function mailerAjax(){
+	$.ajax({
+		url: 'php_mailer/mail_handler.php',
+		method: 'post',
+		// data:{
+
+		// },
+		success: function(data){
+			console.log(data);
+			console.log('success');
+		},
+		error: function(err){
+			console.log(err);
+			console.log('error');
+		}
+	});
+	return false
+}
+
+$("#send_email").on('click',mailerAjax);
+
