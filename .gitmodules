@@ -1,0 +1,6 @@
+[submodule "memory_match"]
+	path = memory_match
+	url = https://github.com/Umpoy/memory_match_oop
+[submodule "simon_says"]
+	path = simon_says
+	url = https://github.com/Umpoy/simon_says
