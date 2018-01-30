@@ -284,12 +284,13 @@ jQuery(function ($) {
             $message = data.message;
 
             if (data.result == true) {
+
                 $theForm.slideUp('medium', function () {
                     $alert.removeClass('alert-danger');
-                    $alert.addClass('alert-success').html($message).slideDown('medium');
+                    $alert.addClass('alert-success').html('Thank you, I will contact you soon').slideDown('medium');
                 });
             } else {
-                $alert.addClass('alert-danger').html($message).slideDown('medium');
+                $alert.addClass('alert-danger').html('Invaild data please try again').slideDown('medium');
             }
 
             $btn.find('.loading-icon').removeClass('fa-spinner fa-spin ');
