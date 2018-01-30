@@ -281,10 +281,10 @@ jQuery(function ($) {
         $btn.prop('disabled', true).find('span').text("Sending...");
 
         $.post('mail_handler.php', $(this).serialize(), function (data) {
-            $message = data.message;
-
-            if (data.result == true) {
-
+            data = JSON.parse(data);
+            $message = data.messages;
+            console.log(data)
+            if (data.success) {
                 $theForm.slideUp('medium', function () {
                     $alert.removeClass('alert-danger');
                     $alert.addClass('alert-success').html('Thank you, I will contact you soon').slideDown('medium');
