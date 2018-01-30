@@ -258,16 +258,16 @@ body #jpreBar {
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
   background-color: #1E90FF;
-  border-color: #ffa325;
+  border-color: #1E90FF;
 }
 .btn-primary:active:focus, .btn-primary.active:focus {
-  background-color: #ffa325;
-  border-color: #f28c00;
+  background-color: #1E90FF;
+  border-color: #1E90FF;
 }
 
 .btn-primary.disabled,
 .btn-primary[disabled] {
-  background-color: #ffc472;
+  background-color: #1E90FF;
   border-color: #1E90FF;
 }
 .btn-primary.disabled:hover, .btn-primary.disabled:focus, .btn-primary.disabled:active, .btn-primary.disabled.active,
@@ -275,7 +275,7 @@ body #jpreBar {
 .btn-primary[disabled]:focus,
 .btn-primary[disabled]:active,
 .btn-primary[disabled].active {
-  background-color: #ffc472;
+  background-color: #1E90FF;
   border-color: #1E90FF;
 }
 
@@ -286,7 +286,7 @@ a {
   color: #1E90FF;
 }
 a:hover, a:focus {
-  color: #ffc472;
+  color: #1E90FF;
   text-decoration: none;
 }
 
