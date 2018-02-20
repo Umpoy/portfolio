@@ -16,11 +16,11 @@ function assign_click_handlers() {
     $('.ygo_github').on('click', function () {
         window.open('https://github.com/Umpoy/memory_match_oop')
     });
-    $('.simon_live').on('click', function () {
-        window.open('simon_says/index.html')
+    $('.netflix_live').on('click', function () {
+        window.open('netflix_roulette/index.html')
     });
-    $('.simon_github').on('click', function () {
-        window.open('https://github.com/Umpoy/simon_says')
+    $('.netflix_github').on('click', function () {
+        window.open('https://github.com/Umpoy/netflix_roulette')
     });
 }
 
