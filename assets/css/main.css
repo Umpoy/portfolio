@@ -6160,5 +6160,9 @@ img.mfp-img {
 p span:hover {
   text-decoration: underline;
   cursor: pointer;
-
 }
+
+.profile_img img{
+  /* height: 300px;
+  transform: rotate(90deg)
+} */

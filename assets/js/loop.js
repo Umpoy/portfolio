@@ -283,6 +283,7 @@ jQuery(function ($) {
         $.post('mail_handler.php', $(this).serialize(), function (data) {
             data = JSON.parse(data);
             $message = data.messages;
+            debugger
             console.log('data is:', data)
             if (data.success) {
                 $theForm.slideUp('medium', function () {
