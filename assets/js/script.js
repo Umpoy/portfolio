@@ -22,6 +22,12 @@ function assign_click_handlers() {
     $('.netflix_github').on('click', function () {
         window.open('https://github.com/Umpoy/netflix_roulette')
     });
+    $('.magic_app_live').on('click', function () {
+        window.open('is_this_your_card/index.html')
+    });
+    $('.magic_app_github').on('click', function () {
+        window.open('https://github.com/Umpoy/is_this_your_card')
+    })
 }
 
 function render_info() {
