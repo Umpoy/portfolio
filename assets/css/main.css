@@ -6162,7 +6162,11 @@ p span:hover {
   cursor: pointer;
 }
 
-.profile_img img{
-  /* height: 300px;
-  transform: rotate(90deg)
-} */
+.resume_div h3{
+  color: #1E90FF;
+  
+}
+
+.resume_div h3:hover{
+  text-decoration: underline;
+}
