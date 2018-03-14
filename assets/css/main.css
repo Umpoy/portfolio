@@ -5842,6 +5842,8 @@ img.mfp-img {
   }
 }
 
+
+
 /* --------------------- */
 /* POPUP
 /* --------------------- */
@@ -6170,3 +6172,16 @@ p span:hover {
 .resume_div h3:hover{
   text-decoration: underline;
 }
+
+.navbar-light .amanlydev{
+  color: #1E90FF;
+}
+
+.amanlydev{
+  margin-top: 1%;
+  color: #fff;
+  vertical-align: baseline;
+}
+
+
+
