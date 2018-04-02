@@ -5790,6 +5790,7 @@ img.mfp-img {
     top: initial;
     bottom: 0;
     height: 33%;
+    min-height: 60px;
   }
 }
 .work-item-list .image-overlay a {
