@@ -29,7 +29,7 @@ function assign_click_handlers() {
         window.open('https://github.com/Umpoy/is_this_your_card')
     })
     $('.table_live').on('click', function () {
-        window.open('tableland/.index.html')
+        window.open('tableland/index.html')
     });
     $('.table_github').on('click', function () {
         window.open('https://github.com/Umpoy/tableland')
