@@ -7,6 +7,7 @@
 }
 
 body {
+    font-family: "Dosis", sans-serif;
     box-sizing: border-box;
     /* padding: 3rem; */
 }
@@ -38,8 +39,10 @@ body {
     left: 30%;
     transform: translate(-50%, -50%);
     text-align: center;
-    font-size: 5rem;
+    font-size: 4rem;
     color: white;
+    border-bottom: 2px solid #fff;
+    text-transform: uppercase;
 }
 
 
