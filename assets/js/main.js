@@ -27,11 +27,11 @@ $(window).resize(function () {
 
 /* navbar setting functions */
 function setNavbarLight() {
-    $('.navbar').addClass('navbar-light');
+    $('.navbar').addClass('navbar-light bg-light ');
     $('.navbar-brand img').attr('src', 'assets/img/loop-logo.png');
 }
 
 function setNavbarTransparent() {
-    $('.navbar').removeClass('navbar-light');
+    $('.navbar').removeClass('navbar-light bg-light ');
     $('.navbar-brand img').attr('src', 'assets/img/loop-logo-white.png');
 }
