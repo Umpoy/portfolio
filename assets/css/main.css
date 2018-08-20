@@ -51,6 +51,33 @@ nav a{
 }
 
 
+.about__heading{
+    color: #343a40;
+    font-size: 4rem;
+    
+    margin-bottom: 50px;
+    text-decoration: underline;
+}
 
+hr{
+    display: inline-block;
+    vertical-align: middle;
+    width: 100px;
+    border-top: 1px solid #646464;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    text-align: center
+}
+
+#about {
+    padding: 70px 0;
+    text-align: center;
+}
+
+#about h3 {
+    color: #c2c2c2;
+    
+}
 
 
