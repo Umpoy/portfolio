@@ -80,4 +80,15 @@ hr{
     
 }
 
+#tech * {
+    text-align: center;
+}
+
+#tech svg{
+    width: 65px;
+    height: 65px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
 
