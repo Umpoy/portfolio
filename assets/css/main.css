@@ -10,10 +10,15 @@ body {
     font-family: "Dosis", sans-serif;
     box-sizing: border-box;
     /* padding: 3rem; */
+    background-color: #F5F5F5;
 }
 
 .main_content{
     min-height: 100vh;
+}
+
+.container * {
+    text-align: center;
 }
 
 #banner{
@@ -70,22 +75,66 @@ hr {
     text-align: center
 }
 
+
+
 #about {
     padding: 70px 0;
+ 
 }
 
 #about h3 {
     color: #c2c2c2;
-    
 }
 
+.parallax {
+    background: url("https://images.pexels.com/photos/289618/pexels-photo-289618.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px;
+}
 
+.parallax *{
+    color: white !important;
+}
+
+/* .parallax h4 {
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 50px;
+} */
+
+/* .social-icon-border{
+    border-radius: 50%;
+    border: 1px solid white;
+} */
+
+.social-icon-border {
+    display: block;
+    width: 60px;
+    height: 60px;
+    font-size: 33px;
+    line-height: 57px;
+    text-align: center;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    margin: auto;
+}
+
+#tech {
+    padding: 70px 0;
+}
 
 #tech svg{
     width: 100px;
     height: 100px;
     margin-bottom: 30px;
     margin-top: 30px;
+}
+
+#contact * {
+    text-align: center !important;
 }
 
 
