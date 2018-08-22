@@ -137,5 +137,7 @@ hr {
     text-align: center !important;
 }
 
-
-
+#portfolio img {
+    height: inherit;
+    width: inherit;
+}
