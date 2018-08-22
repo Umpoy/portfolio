@@ -149,3 +149,8 @@ hr {
     height: inherit;
     width: inherit;
 }
+
+.section__portfolio img{
+    margin: 1%;
+
+}
