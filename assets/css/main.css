@@ -133,8 +133,16 @@ hr {
     margin-top: 30px;
 }
 
+#contact {
+    padding: 70px 0;
+}
+
 #contact * {
     text-align: center !important;
+}
+
+#portfolio {
+    padding: 70px 0;
 }
 
 #portfolio img {
