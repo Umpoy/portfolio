@@ -133,6 +133,7 @@ hr {
 
 #tech {
     padding: 70px 0;
+    background-color: white;
 }
 
 #tech svg{
@@ -140,10 +141,12 @@ hr {
     height: 100px;
     margin-bottom: 30px;
     margin-top: 30px;
+    
 }
 
 #contact {
     padding: 70px 0;
+    background-color: white;
 }
 
 #contact * {
