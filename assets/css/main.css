@@ -97,7 +97,12 @@ hr {
 
 #about {
     padding: 70px 0;
- 
+}
+
+.about__img img{
+    border-radius: 100%;
+    height: 200px;
+    width: 200px;
 }
 
 #about h3 {
