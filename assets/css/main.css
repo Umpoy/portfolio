@@ -69,6 +69,10 @@ button {
     margin: 0px 0;
 }
 
+.banner__box {
+    border: 1px solid white;
+}
+
 nav a{
     color: white;
 }
