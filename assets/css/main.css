@@ -71,6 +71,11 @@ button {
 
 .banner__box {
     border: 1px solid white;
+   
+}
+
+.banner__box a {
+    color: white;
 }
 
 nav a{
