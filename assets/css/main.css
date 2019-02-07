@@ -187,5 +187,18 @@ hr {
 
 .section__portfolio img{
     margin: 1%;
+}
 
+@media screen and (max-width: 380px){
+    .banner__section{
+        left: 50%;
+    }
+
+    .banner__background {
+        height: 75vh;
+    }
+
+    .main_content{
+        min-height: 0;
+    }
 }
