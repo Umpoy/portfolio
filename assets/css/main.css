@@ -71,7 +71,8 @@ button {
 
 .banner__box {
     border: 1px solid white;
-   
+    padding: 15px 41px;
+    margin: 0 5px;
 }
 
 .banner__box a {
@@ -189,7 +190,7 @@ hr {
     margin: 1%;
 }
 
-@media screen and (max-width: 380px){
+@media screen and (max-width: 700px){
     .banner__section{
         left: 50%;
     }
@@ -200,5 +201,15 @@ hr {
 
     .main_content{
         min-height: 0;
+    }
+}
+
+
+@media (min-width: 768px){
+    .col-md-6 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 47%;
     }
 }
