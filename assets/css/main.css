@@ -103,8 +103,6 @@ hr {
     text-align: center
 }
 
-
-
 #about {
     padding: 70px 0;
 }
@@ -129,6 +127,27 @@ hr {
 
 .parallax *{
     color: white !important;
+}
+
+.parallax__header {
+    color: #343a40;
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 50px;
+    text-decoration: underline;
+}
+
+.parallax__content {
+    width: 245px;
+    margin: 0 auto;
+}
+
+.parallax__content i {
+    border: 1px solid white;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    padding: 15px;
 }
 
 /* .parallax h4 {
