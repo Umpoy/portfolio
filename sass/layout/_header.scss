@@ -4,7 +4,7 @@
         to right bottom,
         rgba($color-primary-light, 0.8),
         rgba($color-primary-dark, 0.8)),
-    url(https://images.unsplash.com/photo-1468174482686-1047396f13b3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6c4835269512eea2cc8bfba3c356a1e2&auto=format&fit=crop&w=1950&q=80);
+    url('/img/hero.gif');
     background-size: cover;
     background-position: top;
     position: relative;
@@ -23,7 +23,7 @@
             to right bottom,
             rgba($color-primary-light, 0.8),
             rgba($color-primary-dark, 0.8)),
-        url(https://images.unsplash.com/photo-1468174482686-1047396f13b3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6c4835269512eea2cc8bfba3c356a1e2&auto=format&fit=crop&w=1950&q=80);
+        url('/img/hero.gif');
     }
 
     @include respond(phone) {
@@ -38,7 +38,7 @@
     }
 
     &__logo {
-        height: 3.5rem;
+        height: 6.5rem;
     }
     
     &__text-box {
