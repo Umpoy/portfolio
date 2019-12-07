@@ -654,6 +654,9 @@ body {
   padding: 10rem 0;
   font-size: 1.4rem;
   color: #f7f7f7; }
+  .footer a {
+    color: #fff;
+    text-decoration: none; }
   @media only screen and (max-width: 56.25em) {
     .footer {
       padding: 8rem 0; } }
@@ -921,12 +924,16 @@ body {
   .section-features ul {
     list-style-type: none; }
 
-.section-tours {
+#projects {
+  position: relative;
+  top: 100px; }
+
+.section-projects {
   background-color: #f7f7f7;
   padding: 25rem 0 15rem 0;
   margin-top: -10rem; }
   @media only screen and (max-width: 56.25em) {
-    .section-tours {
+    .section-projects {
       padding: 20rem 0 10rem 0; } }
 
 .section-stories {
