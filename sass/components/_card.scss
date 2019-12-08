@@ -7,7 +7,7 @@
         height: 52rem;
         
         &__side {
-            height: 38rem;
+            height: 43rem;
             transition: all .8s ease;
             position: absolute;
             top: 0;
@@ -53,7 +53,7 @@
         // FRONT SIDE STYLING
         &__picture {
             background-size: cover;
-            height: 15rem;
+            height: 20rem;
             background-blend-mode: screen;
             -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
             clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
